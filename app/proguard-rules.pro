@@ -1,0 +1,3 @@
+-keep class com.crocxshare.app.** { *; }
+-dontwarn org.bouncycastle.**
+-keep class org.bouncycastle.** { *; }

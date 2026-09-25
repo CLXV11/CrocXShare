@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="send"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/sc_send">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.crocxshare.app"
+            android:targetClass="com.crocxshare.app.MainActivity">
+            <extra android:name="screen" android:value="SEND" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="receive"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/sc_receive">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.crocxshare.app"
+            android:targetClass="com.crocxshare.app.MainActivity">
+            <extra android:name="screen" android:value="RECEIVE" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="text"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/sc_text">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.crocxshare.app"
+            android:targetClass="com.crocxshare.app.MainActivity">
+            <extra android:name="screen" android:value="TEXT" />
+        </intent>
+    </shortcut>
+</shortcuts>
